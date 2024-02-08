@@ -1,9 +1,25 @@
 .title{
     text-align: center;
   height: 100px;
-   color:black;
-   margin-top: 120px !important;
+   color: black;
+   margin-top: 100px !important; 
+
 }
 .container-fluid{
-    background-color:white;
+    background-color:rgb(115, 204, 231);
+
+
+}
+
+.A1{
+    /* background-color: rgb(212, 12, 162); */
+    width: 200px;
+    height: 250px;
+    /* background-color: lightblue; */
+    /* box-shadow: 10px 10px 5px grey; */
+    margin-left: 700px; 
+    margin-top: 100px;
+}
+.nav{
+    justify-content: center;
 }

@@ -9,42 +9,73 @@
 </head>
 
 <body>
- <div class="contener-fluid" style="background-color:rgb(219, 25, 99);">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">FB</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="HOME.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menu
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Formation</a></li>
-                  <li><a class="dropdown-item" href="reservation.html">Reservation</a></li>
-                  <li><a class="dropdown-item" href="HOME.html">Home</a></li>
-                 
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-           
-          </div>
-        </div>
-      </nav>
+  
+<!-- barre de navigation -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: -ms-page;">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="#">Fontaine De Beauté</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <ul class="nav "> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     <li class="nav-item" >
+       <a class="nav-link active" aria-current="page" href="HOME.html">Home</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">nos page</a>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Menu
+       </a>
+       <ul class="dropdown-menu">
+         <li><a class="dropdown-item" href="#">Formation</a></li>
+         <li><a class="dropdown-item" href="reservation.html">Reservation</a></li>
+         <li><a class="dropdown-item" href="se connecter.html">se connecter</a></li>             
+       </ul>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link " aria-disabled="tru>info"></a>
+       </li>
+  </ul>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
+  </div>
+</nav>
+<!-- fin de la barre de nevigation -->
+ <div class="A1">
+  <form class="mt-3" action="CONNECTER VOUS" method="post">
+    <div class="form">
+      <label for="username">nom</label>
+      <input type="text"id="username" name="username"required>
+      </div>
+      <div>
+     <label class="mt-2" for="prenom">prenom</label>
+      <input type="text"id="prenomname="prenom" required>
+    </div>
+     <div >
+      <label class="mt-2" for="email">email</label>
+       <input type="email"id="email" name="email" required>
+     </div>
+     <div >
+      <label class="mt-2" for="phone">contact</label>
+       <input type="tel"id="phone" name="phone" pattern="[0-9]{10}" placeholder="686913777" required>
+      
+     </div>
+     <div class="mt-3">
+      <input type="submit" value="envoyer">
+     </div>
+   </form>
  </div>
+
+
+
 
 
 
