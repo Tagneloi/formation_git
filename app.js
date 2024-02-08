@@ -1,2 +1,3 @@
-document.write("BIENVENUE DANS VOTRE INSTITUT DE BEAUTE");
+
+document.write("Bien vouloir cree un compte");
  alert("je ne vous connais pas");
